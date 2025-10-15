@@ -4,7 +4,7 @@
 		"dockerfile": "Dockerfile"
 	},
 
-	"postCreateCommand": "poetry shell",
+	"postCreateCommand": "poetry install --no-root && poetry shell",
 
 	"customizations": {
         "vscode": {
