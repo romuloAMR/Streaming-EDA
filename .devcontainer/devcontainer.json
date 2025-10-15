@@ -1,0 +1,20 @@
+{
+	"name": "eda-streaming",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+
+	"postCreateCommand": "poetry shell",
+
+	"customizations": {
+        "vscode": {
+            "extensions":[
+				"ms-python.python",
+				"ms-toolsai.jupyter"
+			]
+            }
+        }
+
+	// 👇 Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
+}
