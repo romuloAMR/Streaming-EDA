@@ -84,3 +84,4 @@ Data was obtained from Kaggle through the following datasets:
 
 ### Authors
 - [Rômulo Alves de Morais Rocha](https://github.com/romuloAMR)
+- [Sávio Emanuel Mariano Fonseca](https://github.com/savioemanuelf)
